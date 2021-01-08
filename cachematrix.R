@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-##store an inversion of a matrix to avoid compute it repeatealy
+##the pupose of the following paired function is to store an inversion of a matrix to avoid compute it repeatealy
 ##The first function is to cache a matrix's inverse
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
